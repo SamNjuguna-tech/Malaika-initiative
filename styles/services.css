@@ -1,0 +1,163 @@
+:root {
+  --Default:1.5rem;
+  --responsive:3rem;
+}
+
+.title-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.services_body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;    
+}
+.firstChildContainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+#first{
+   width: 100%;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: inherit;
+  
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.firstChildContainer h1{
+    width: 100%;
+    margin-top: 0;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* -webkit-background-clip: text; */
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+    background:url('../images/ICONS/TEXTURE\ 1.jpg');
+font-size: 20vw;
+text-align: center;
+color: rgb(0, 2, 34);
+}
+@keyframes zoomout {
+    from {
+      background-size: 60%;
+
+    }
+    to {
+      background-size: 30%;
+    }
+  }
+
+  .c1{
+     
+    min-height: 500px; 
+    background-image: url('../images/touse/doctor/IMG_1482_1600x1067.JPG');
+    margin-top:-11rem;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 4vw;
+  color: blueviolet;
+  
+    
+  }
+  .c3{
+    
+    min-height: 500px; 
+    background-image: url('../images/touse/pastor/pas1.JPG');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 4vw;
+  color: blueviolet;
+  }
+  .c5{
+    margin-top: 5px;
+    min-height: 500px; 
+    background-image: url('../images/touse/feeding/WhatsApp\ Image\ 2021-03-23\ at\ 3.41.57\ AM.jpeg');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 4vw;
+  color: blueviolet;
+
+  }
+  .c8{
+    margin-top: 5px;
+    min-height: 500px; 
+    background-image: url('../images/touse/pastor/IMG_1486_1600x1067.JPG');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 4vw;
+  color: blueviolet;
+  }
+  .firstChildContainer span{
+      background-color: rgb(0, 0, 0);
+     border-radius: 5px;
+     padding: 5px;
+     color: white;
+     font-family: 'Raleway', sans-serif;
+
+      
+  }
+  .firstChildContainer p{
+      width: 50%;
+      
+      font-size: var(--Default);
+      margin-left: 25%;
+      text-align: center;
+  }
+  .c7{
+    display: flex;
+    flex-direction: column;
+  }
+  .c7 > li {
+    margin-left: 10%;
+    margin-top: 10px;
+    /* margin-bottom: 2rem; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+  }
+ 
+.links{
+  text-decoration: none;
+  color:blue;
+}
+
+@media screen and (max-width: 600px) {
+  .firstChildContainer p{
+    width: 90%;
+    margin:5%;
+  }
+  .c7 li{
+    font-size: 4vw;
+  }
+}

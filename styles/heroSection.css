@@ -1,0 +1,71 @@
+.bunner{
+    padding:0;
+    margin:0 ;
+    
+    height: 60vh;
+    position: relative;
+    background-image: url('/images/touse/compund/IMG_1471_1600x1067.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    box-sizing: border-box;
+}
+.clipped{
+   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 42% 0, 100% 100%, 0% 100%);
+    background-color:#fff;
+    opacity: .9;
+    
+    box-sizing: border-box;
+}
+
+/* removed at request of co-owner */
+/* .donate_button{
+    height: 2rem;
+    width: 20rem;
+    background-color: blue;
+    border-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    align-self: center;
+} */
+.content{
+
+    margin-top: 10vh;
+    width: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    
+}
+.title{
+    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.mission{
+    font-size: 17px;
+    /* font-weight: bold; */
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 650px){
+    .clipped{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        
+        
+    }
+    .content{
+        
+        margin-top: 1rem ;
+        width: 80%;
+        display: grid;
+        
+    }
+}

@@ -1,0 +1,119 @@
+:root{
+    --SegoeFont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.news-section{
+    /* box-sizing: content-box; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* background-color: aquamarine; */
+   
+}
+.news-card{
+    width: 60%;
+    height: inherit;
+    /* background-color: blue; */
+    margin-left: 20px;
+
+}
+.card-header{
+    /* background-color: azure; */
+    width: 100%;
+    font-family: var(--SegoeFont);
+}
+.card-head-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+#news-head-image{
+    height: 30vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.socials{
+    display: flex;
+    /* background-color: aqua; */
+    align-self: flex-end;
+}
+.socials > *{
+    width: fit-content;
+    padding: 5px;
+    margin-right: 10px;
+    /* color: orange; */
+    /* background-color: black; */
+
+}
+.socials > *:hover{
+cursor: pointer;
+color:rgba(247, 163, 9, 0.8)
+}
+
+.card-details{
+    font-family: var(--SegoeFont);
+}
+
+.news-store{
+    margin-top: 3.5rem;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--SegoeFont);
+    
+}
+.store-news-card{
+    width: 100%;
+    padding: 2%;
+    
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: -1px 11px 47px -8px rgba(0,0,0,0.77); */
+}
+.store-card-image{
+    border-radius: 10px;
+}
+.date-eddited{
+    font-size: 12px;
+    
+}
+.store-social-container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+.store-social{
+    font-size: 12px;
+    
+   
+    display: flex;
+    justify-content: flex-end;
+    font-family: var(--SegoeFont);
+
+}
+.store-social >*{
+    margin-right: 10px;
+
+    align-items: center;
+    
+}
+.store-news-title{
+    font-size: 12px;
+    font-family: var(--SegoeFont);
+    color: rgb(73, 70, 70);
+}
+.store-social >*:hover{
+    cursor: pointer;
+    color: rgb(32, 240, 240);
+}
+.store-news-title:hover{
+    color: #111;
+    cursor: pointer;
+}

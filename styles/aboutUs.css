@@ -1,0 +1,174 @@
+.about_section{
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.objective {
+    margin-top: 2rem;
+    align-self: center;
+    width:50%;
+    height: 10rem;
+    margin-left: 25%;
+    text-align: center;
+   
+    
+    margin-bottom: 3rem;
+    
+    
+}
+.doctor_tab{
+    
+    background-image: url('./../images/touse/doctor/IMG_1479_1600x1067.JPG');
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    
+    z-index: 1;
+    display: flex;
+    
+    
+}
+.Ovp{
+    color: white;
+    margin: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40vw;
+    font-size: 17px; 
+    text-align: left;
+   
+}
+
+
+
+@media only screen and (max-width: 650px){
+    .about_section{
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+    /* .objective{
+        font-size: 1rem;
+        width: 90%;
+        margin: 2rem;
+        margin-right: 2rem;
+        text-align: left;
+    } */
+    .doctor_tab{
+        width: 100%;
+    }
+    .overlay{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 100vw;
+    }
+    .Ovp{
+        margin:0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 90vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        
+        text-align: center;
+    }
+}
+.board{
+    
+    display:flex;
+    margin:2rem;
+    width: 90%;
+   
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+/* .elems_image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin: 5px;
+    text-align:center;
+    
+}
+.infoB{
+    align-self: center;
+    background-color: rgb(213, 238, 213);
+    text-align: center;
+    box-shadow: lightgrey;
+    
+    width: 15rem;
+}
+
+.board-elems{
+    margin-top: 1rem;
+   
+    
+}
+#founder{
+    background-image:url('../images/touse/owners/GRACE2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#chairman{
+    background-image:url('../images/touse/owners/DSC_0002.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tresh{
+    background-image:url('../images/touse/owners/perfect.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+.h1L{
+   
+    display: block;   
+    text-align: left;
+    margin-left: 2rem;
+    /* background-color: khaki; */
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 650px){
+  
+
+}
+.how{
+    font-size: 20px;
+   
+}
+
+
+.imgN{
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    float: left;
+    margin: 5px;
+    
+
+}

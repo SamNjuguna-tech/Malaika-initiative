@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+.appreciation{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+.Apheader{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(1, 1, 116);
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.text{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    width: 99%;
+    font-size: 5vw;
+    font-family: 'Lobster', cursive;
+}
+.infop{
+    /* background-color: rgb(123, 238, 123); */
+   
+   width: 100%;
+   
+   
+}
+.infop p{
+    margin-top: 15vh;
+    text-align: center;
+   
+    margin-left: 25%;
+    width: 50vw;
+    font-size: 1.5vw;
+    align-self: center;
+}
+.h{
+    font-size: 2vw;
+}
+.h2{
+    font-size: 1.5vw;
+    width: 50%;
+    
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+
+.mentions{
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+}
+.mentions > *{
+    margin: 20px;
+    /* background-color: darkgreen; */
+    height: 10rem;
+    width: 15rem;
+    align-self: center;
+    text-align: center;
+}
+/* .aicB{
+    background-image: url('../images/touse/others/aic\ logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menengai{
+    background-image: url('../images/touse/others/mene.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pcea{
+    background-image: url('../images/touse/others/pcea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kenjap{
+    background-image: url('../images/touse/others/kenj.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lemo{
+    background-color: forestgreen;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+@media only screen and (max-width: 650px){
+    .mentions > *{
+        margin-left: 20%;
+    }
+    .B a{
+        font-size: 3vw;
+    }
+    .infop p{
+        
+        font-size: 3vw;
+        margin: 0;
+        width:90vw;
+        margin-top: 2rem;
+        margin-left: 5vw;
+        
+        
+    }
+    .h,.h2{
+        font-size: 3vw;
+    }
+    
+
+}
+.B{
+    font-family: 'Lobster', cursive;
+    font-size: 2VW;
+}
+.mentions >*:hover {
+border:  1px solid rgb(63, 66, 63);
+box-shadow: 5px 10px #302f2f;
+}
